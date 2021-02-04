@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #050A15 url(../images/background.jpg) top center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	font-family: Assistant, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+	position: relative;
+	width: 100vw;
+}
+
+header {
+	background: transparent url(../images/chrt.png) center center no-repeat;
+	background-size: contain;
+	bottom: 5vh;
+	display: block;
+	height: 10vh;
+	left: 50%;
+	position: absolute;
+	transform: translate3d(-50%, 0, 0);
+	width: 200px;
+}
+
+.subscribe {
+	display: block;
+	margin: 0 auto 0 auto;
+	max-width: 600px;
+	min-width: 280px;
+	padding-top: 20vh;
+	width: 50%;
+}
+
+p {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+label span {
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+input[type="text"] {
+	border: 1px solid #2B4651;
+	display: block;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+	-webkit-appearance: none;
+}
+
+input[type="submit"] {
+	background: #6E828E;
+	border: 1px solid #2B4651;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	padding: 0 30px;
+	text-transform: uppercase;
+	-webkit-appearance: none;
+}
+
+.pwrd a {
+	color: #fff;
+	font-size: 12px;
+}
