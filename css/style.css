@@ -21,7 +21,7 @@ body {
 header {
 	background: transparent url(../images/chrt.png) center center no-repeat;
 	background-size: contain;
-	bottom: 5vh;
+	bottom: 2vh;
 	display: block;
 	height: 10vh;
 	left: 50%;
