@@ -12,7 +12,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0;
-	min-height: 100vh;
+	min-height: 80vh;
 	padding: 0;
 	position: relative;
 	width: 100vw;
@@ -21,7 +21,7 @@ body {
 header {
 	background: transparent url(../images/chrt.png) center center no-repeat;
 	background-size: contain;
-	bottom: 5vh;
+	bottom: 10px;
 	display: block;
 	height: 10vh;
 	left: 50%;
